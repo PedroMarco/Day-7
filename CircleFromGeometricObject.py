@@ -23,3 +23,6 @@ class Circle(GeometricObject):
 
     def printCircle(self):
         print(self.__str__() + " radius: " + str(self.__radius))
+
+    def __str__(self):
+        return 'This is the circle with radius: %s' % self.__radius
