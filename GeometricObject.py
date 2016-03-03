@@ -4,10 +4,10 @@ class GeometricObject:
         self.__filled = filled
 
     def getColor(self):
-        return self.__color
+        return self.__color ## Would provide the actual color
 
     def setColor(self, color):
-        self.__color = color
+        self.__color = color ## Would change the color, without affecting the class
 
     def isFilled(self):
         return self.__filled
